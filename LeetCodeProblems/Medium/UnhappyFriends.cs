@@ -53,27 +53,6 @@
                 }
             }
 
-            //for (int i = 0; i < pairs.Length; i++)
-            //{
-            //    var pair = pairs[i];
-            //    var prefPrimary = preferences[pair[0]];
-            //    var prefSecondary = preferences[pair[1]];
-            //    var indexPair1 = prefPrimary.ToList().IndexOf(pair[1]);
-            //    var indexPair2 = prefSecondary.ToList().IndexOf(pair[1]);
-            //    if (indexPair1 > -1)
-            //    {
-            //        var friendsPreffered1 = prefPrimary.Take(new Range(0, indexPair1));
-            //    }
-            //    else
-            //        unHappy++;
-
-
-            //    //if (prefPrimary[0] != pair[1])
-            //    //    unHappy++;
-            //    //if (prefSecondary[0] != pair[0])
-            //    //    unHappy++;
-            //}
-
             return unHappy;
         }
 
